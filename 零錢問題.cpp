@@ -10,19 +10,19 @@ int five = ten % 5;
 int one = five % 1;
 
 if (dollar >= 50 )
- cout << "有50元硬幣X" << dollar / 50;
+ cout << "有50元硬幣X" << dollar / 50 << "個";
  cout << "個"; 
   
 if (fifty >= 10 )
- cout << "\n有10元硬幣X" << fifty / 10;
+ cout << "\n有10元硬幣X" << fifty / 10 << "個";
  cout << "個"; 
  
 if (ten >= 5 )
- cout << "\n有5元硬幣X" << ten / 5;
+ cout << "\n有5元硬幣X" << ten / 5 << "個";
   cout << "個"; 
   
 if (five >= 1 )
- cout << "\n有1元硬幣X" << five / 1;
+ cout << "\n有1元硬幣X" << five / 1 << "個";
  cout << "個"; 
  
  }
